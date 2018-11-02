@@ -1,0 +1,48 @@
+from pymongo import MongoClient
+
+# connect to the MongoDB.
+conn = MongoClient('localhost', 27017)
+
+# Access the testdb database and the emp collection.
+db = conn.testdb.emp
+
+# create a dictionary to hold emp details.
+
+# create dictionary.
+emp_rec = {}
+
+# set flag variable.
+flag = True
+
+# loop for data input.
+while (flag):
+    # ask for input.
+    emp_name, emp_addr, emp_id = input("Enter emp name, address and id: ").split(',')
+    # place values in dictionary.
+    emp_rec = {'name': emp_name, 'address': emp_addr, 'id': emp_id}
+    # insert the record.
+    db.insert(emp_rec)
+    # Ask from user if he wants to continue to insert more documents?
+    flag = input('Enter another record(y/n)? ')
+    if (flag[0].upper() == 'N'):
+        flag = False
+
+# find all documents.
+ret = db.find()
+
+print()
+print('+-+-+-+-+-+-+-+-+-+-+-+-+-+-')
+
+# display documents from collection.
+for record in ret:
+    # print out the document.
+    print(record['name'] + ',', record['address'] + ',', record['id'])
+
+print()
+
+# close the conn to MongoDB
+conn.close()
+
+
+
+

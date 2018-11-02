@@ -1,0 +1,4 @@
+dance parties incoming to do 
+a list is nothing but a set of numbers, strings, lists, tuples etc
+it is ammendable it is readable ofcourse and it is pretty 
+useful.
