@@ -27,7 +27,16 @@
 # print(p)
 
 
-print(set(list('abcdabc')) in set('abcd'))
-print(set(list('abcdabc')))
-print(set('abcde'))
+# print(set(list('abcdabc')) in set('abcd'))
+# print(set(list('abcdabc')))
+# print(set('abcde'))
+
+for i in range(2):
+    for i in range(6):
+        print(i)
+
+    print('--', i)
+
+
+
 
