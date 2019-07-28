@@ -31,12 +31,15 @@
 # print(set(list('abcdabc')))
 # print(set('abcde'))
 
-for i in range(2):
-    for i in range(6):
-        print(i)
+# for i in range(2):
+#     for i in range(6):
+#         print(i)
 
-    print('--', i)
+#     print('--', i)
 
 
+a=123
+b=23
 
+print(a if a else 1237489)
 

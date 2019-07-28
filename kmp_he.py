@@ -1,6 +1,5 @@
 '''
 
-
 Given 2 strings, P and T, find the number of occurrences of P in T.
 
 Input:
@@ -15,8 +14,6 @@ Constraints: 1<P<=T10^5
 
 '''
 
-
-incomplete.
 
 
 p=input()
