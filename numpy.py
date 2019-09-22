@@ -6,6 +6,7 @@ Created on Wed Jan  3 16:23:47 2018
 """
 
 import numpy as np
+import matplotlib.pyplot as plt
 
 a=np.linspace(1,3,10)
 print(a)
@@ -81,7 +82,6 @@ print(np.arange(0,np.pi,0.1))
 #  3.   3.1]
 
 
-import matplotlib.pyplot as plt
 x=np.arange(0,2*np.pi,0.1)
 y=np.sin(x)
 plt.plot(x,y)
@@ -93,6 +93,3 @@ print(np.exp(f1))
 
 #[   1.            2.71828183    7.3890561    20.08553692   54.59815003
 #  148.4131591 ]
-
-￼
-￼￼￼
