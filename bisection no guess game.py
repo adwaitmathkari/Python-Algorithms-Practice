@@ -21,3 +21,5 @@ while g!='c':
         print('You should enter h, l or c. Please reenter.')
     m=int(l1/2+l2/2)
 print('Game over. Your secret number was: ', int(m))
+
+

@@ -1,0 +1,9 @@
+Describe how to perform an operation remove range(start, stop) that removes all the items whose 
+keys fall within range(start, stop) in a sorted map that is implemented with a binary search tree T, 
+and show that this method runs in time O(s+h), where s is the number of items removed and h is the 
+height of T (Use Python if provide pseudo-code).
+
+Repeat the previous problem (Python for possible pseudo-code) using an AVL tree, 
+achieving a running time of O(s log n). Why doesn’t the solution to the previous problem 
+trivially result in an O(s+logn) algorithm for AVL trees?
+

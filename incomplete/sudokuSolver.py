@@ -27,6 +27,3 @@ class Solution:
         Do not return anything, modify board in-place instead.
         """
         
-
-        
-    

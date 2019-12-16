@@ -29,9 +29,15 @@ A solution set is:
 
 */
 
+/***
+ * find all unique triplets where the sum is zero
+ * find 
+*/
+var threeSum = function(nums) {
+  
+  
   
 
-
-
-
-
+    
+    
+};
