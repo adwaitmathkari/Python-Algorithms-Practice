@@ -20,6 +20,9 @@ while g!='c':
     elif g!='c':
         print('You should enter h, l or c. Please reenter.')
     m=int(l1/2+l2/2)
+    if l1==l2:
+        print("Your No is %d"%m)
+        break
 print('Game over. Your secret number was: ', int(m))
 
 
