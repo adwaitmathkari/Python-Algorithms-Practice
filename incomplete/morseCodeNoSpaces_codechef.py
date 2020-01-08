@@ -1,4 +1,4 @@
-"""
+problemStatement = """
 
 Morse code is the cheapest and most popular way of message communitcation. 
 In Morse code, each letter of the alphabet is represented by a sequence of 
@@ -104,14 +104,76 @@ error
 
 total 0
 
-
 """
 
 
+# morse code without gaps 
+# 1.- 2. 3.. 4...
+# .-.-...
+# 11222 1123 1132 114
+# 
+# 
+#   
+
+
+d={
+
+'a': '.-',
+'b': '-...',
+'c': '-.-.',
+'d': '-..',
+'e': '.',
+'f': '..-.',
+'g': '--.',
+'h': '....',
+'i': '..',
+'j': '.---',
+'k': '-.-',
+'l': '.-..',
+'m': '--',
+'n': '-.',
+'o': '---',
+'p': '.--.',
+'q': '--.-',
+'r': '.-.',
+'s': '...',
+'t' : '-',
+'u': '..-',
+'v': '...-',
+'w': '.--',
+'x': '-..-',
+'y': '-.--',
+'z': '--..'
+}
+
+
+# so i have a dictionary now
+# comparing the morse code fro mthe start to letters alphabetically  
 
 
 
+l1,l2,l3,l4=[],[],[],[]
+j1,j2,j3,j4=[],[],[],[]
 
+
+for a in d.keys():
+    if len(d[a])==1:
+        l1.append(a)
+        j1.append(d[a])
+    elif len(d[a])==2:
+        l2.append(a)
+        j2.append(d[a])
+    elif len(d[a])==3:
+        l3.append(a)
+        j3.append(d[a])
+    else:
+        l4.append(a)
+        j4.append(d[a])
+print(l1, '\n',l2,'\n',l3,'\n',l4)
+print(j1)
+print(j2)
+print(j3)
+print(j4)
 
 
 
