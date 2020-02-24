@@ -18,15 +18,3 @@ Print a single integer that denotes the number of ways to paint the floor comple
 """
 
 
-
-
-
-
-
-
-
-
-
-
-
-
