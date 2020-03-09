@@ -58,7 +58,7 @@ Constraints:
 # all evens are greater than all the odds
 # odd length array-- next is the biggest and need to be sent to the first indexby flipping alternate nos till the first index is reached
 # even length array-- next is bigger needs to be flipped with last and then the even array should be fixed.
-# 
+
 
 class Solution:
     def sortArray(self,arr):

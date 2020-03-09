@@ -15,6 +15,8 @@ def biasedCoin():
     
     
 
+    
+
  
 def fixBiasedCoin(prob):    
     outcome=biasedCoin()
