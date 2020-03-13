@@ -49,7 +49,6 @@ class Solution:
         #               wordbreak('cd', l)
         #           else:
         #               carry on to the next word in l
-        #
         ans=[False]
         self.wordBreakRecur(s,wordDict,ans)
         return ans[0]
