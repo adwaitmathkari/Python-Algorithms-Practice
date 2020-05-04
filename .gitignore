@@ -2,3 +2,4 @@
 .vscode/
 XDG_CACHE_HOME/
 divisors_HE_TestSet.py
+node_modules/

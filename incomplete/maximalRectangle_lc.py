@@ -17,6 +17,4 @@ Output: 6
 
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
-        
-        
         pass

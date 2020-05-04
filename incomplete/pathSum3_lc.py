@@ -7,7 +7,6 @@ The path does not need to start or end at the root or a leaf, but it must go dow
 
 The tree has no more than 1,000 nodes and the values are in the range -1,000,000 to 1,000,000.
 
-
 """
 
 
@@ -31,8 +30,7 @@ class Solution:
         # start taking sum from root, at each node, respawn an instance of the same function.
         # traverse the full tree only once. 
         # if each node starts traversing the tree full, it will be a menace.
-        # but also sum at each step needs to be checked. 
-        # 
+        # but also sum at each step needs to be checked.
         #   
 
 

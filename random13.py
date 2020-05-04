@@ -43,3 +43,8 @@ b=23
 
 print(a if a else 1237489)
 
+a=[1,2,3,4,5,6,7]
+for j in range(100):
+    print('1', a.pop() if a!=[] else None)
+
+    print('2', a.pop())
