@@ -5,13 +5,11 @@ import os
 
 ###
 # get all the github links from the repos folder
-# create a script to execute and clone all the repos  
-#
-#
-#
-#
-#
-#
+# create a script to clone all the repos
+# 
+# 
+#   
+
 
 def getRepoUrl(configFile):
         
@@ -36,28 +34,32 @@ def getRepoUrl(configFile):
                 fl=True
                 url = data[i].split('"')[1]
     except FileNotFoundError:
-        l = ['File not Fund']
+        l = ['File not Found']
     
     return l
 
-repos = [ f.path for f in os.scandir('/home/adwait/repos') if f.is_dir() ]
+repos = [ f.path for f in os.scandir('/home/adwait/myFolder') if f.is_dir() ]
 
-file2 = open('/home/adwait/Desktop/gitRepos.txt', 'a')
+file2 = open('/home/adwait/Desktop/gitReposMyFolder.txt', 'a')
 
 for repo in repos:
+
+    file1= repo+'/.git/config'
+    l=getRepoUrl(file1)
+
     folder = repo.split('/')[-1]
     file2.write('#' + folder+'\n')
-    file2.write('cd repos\n')
-    file2.write('mkdir '+folder+'\n')
-    file2.write('cd '+folder+'\n')
-    file2.write('git init\n')
-
-    file1= repo+'/.git/config'    
-    l=getRepoUrl(file1)
-    for s in l:
-        file2.write('git remote add ' + s + '\n' )         
-        file2.write('git pull '+s.split(' ')[0] +' master\n')
-
+    if not l[0] == 'File not Found': 
+        file2.write('cd repos\n')
+        file2.write('mkdir '+folder+'\n')
+        file2.write('cd '+folder+'\n')
+        file2.write('git init\n')
+        for s in l:
+            file2.write('git remote add ' + s + '\n' )         
+            file2.write('git pull '+s.split(' ')[0] +' master\n')
+    else:
+        file2.write('No git repo\n')
+    
     file2.write('\n')
         
 
