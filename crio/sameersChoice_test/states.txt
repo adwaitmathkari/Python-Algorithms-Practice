@@ -1,0 +1,66 @@
+2
+car 45-945
+bus 787-97-9
+5
+JH-89-AL-4554 car
+AN-78-GHH-4504 car
+RJ-54-FV-8989 bus
+HY-45-GHV-788R car
+DH-45-7TG-RRRR car
+
+
+
+4
+car 87-94-56-9
+bus 5468
+truck 77-97-90-1
+motorbike 0-90-90-90-9
+3
+JH-45-ADA-8784 car
+JK-12-6556 motorbike
+RN-65-A7A-7878 truck
+
+
+
+
+
+
+
+
+
+
+4
+car 45-945
+bus 787-97-9
+truck 77-97-90-1
+motorbike 0-90-90-90-9
+5
+JH-89-AL-4554 car
+AN-78-GHH-4504 motorbike
+RJ-54-FV-8989 car
+HY-45-GHV-788R car
+DH-45-7TG-RRRR car
+
+
+
+
+
+
+
+
+
+
+
+4
+car 87-94-56-9
+bus 5468
+truck 77-97-90-1
+motorbike 0-90-90-90-9
+4
+JH-45-ADA-8784 car
+JK-12-6556 motorbike
+RN-65-A7A-7878 truck
+MH-12-JJ-4994 motorbike
+
+
+["AP","AR",	"AS",	"BR",	"CG","GA","GJ",	"HR",	"HP","JH","KA",	"KL",	"MP",	"MH",	"MN",	"ML",	"MZ",	"NL","OD","PB",	"RJ","SK",	"TN",	"TS","TR",	"UP",	"UK",	"WB",	"AN",	"CH",	"DD","DL","JK",	"LA","LD","PY"]

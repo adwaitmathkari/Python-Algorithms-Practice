@@ -1,0 +1,740 @@
+Yes Bad 1485
+Yes Bad 9787
+No
+No
+No
+Yes Bad 3973
+No
+No
+Yes Bad 6997
+No
+Yes Bad 6424
+No
+Yes Bad 9663
+Yes Bad 2579
+Yes Bad 3173
+No
+No
+Yes Bad 8764
+No
+Yes Good
+No
+Yes Good
+Yes Bad 3565
+No
+No
+No
+No
+Yes Good
+No
+Yes Good
+Yes Bad 9786
+No
+No
+No
+Yes Bad 4597
+Yes Bad 2257
+Yes Good
+No
+No
+No
+Yes Good
+Yes Bad 6593
+Yes Bad 5495
+No
+Yes Good
+Yes Bad 3375
+Yes Bad 5556
+No
+No
+Yes Bad 9248
+Yes Bad 4698
+Yes Bad 3784
+Yes Bad 4124
+No
+Yes Bad 6427
+Yes Good
+No
+No
+No
+No
+No
+Yes Bad 4859
+Yes Good
+Yes Bad 5445
+Yes Good
+Yes Good
+Yes Bad 4563
+No
+No
+No
+No
+Yes Bad 7253
+No
+Yes Good
+No
+Yes Bad 7907
+No
+No
+Yes Bad 1844
+Yes Bad 8332
+No
+Yes Good
+Yes Good
+No
+Yes Bad 2158
+No
+No
+No
+Yes Good
+No
+No
+Yes Bad 6099
+Yes Good
+Yes Bad 7733
+No
+No
+No
+No
+Yes Bad 4008
+No
+Yes Bad 9781
+Yes Good
+No
+Yes Bad 6776
+Yes Bad 2968
+Yes Bad 2899
+No
+Yes Bad 9228
+Yes Bad 4428
+No
+Yes Good
+Yes Bad 4965
+No
+No
+Yes Good
+No
+Yes Bad 4696
+No
+Yes Good
+Yes Bad 5485
+No
+Yes Good
+No
+No
+No
+No
+No
+No
+Yes Bad 6322
+No
+Yes Good
+Yes Bad 9568
+No
+No
+No
+Yes Bad 5773
+Yes Bad 2968
+No
+No
+No
+Yes Good
+Yes Bad 7857
+No
+No
+Yes Good
+No
+No
+Yes Good
+Yes Bad 2256
+No
+Yes Good
+Yes Good
+Yes Good
+No
+Yes Good
+No
+No
+No
+No
+Yes Good
+No
+Yes Good
+No
+No
+No
+No
+No
+Yes Good
+Yes Bad 2899
+Yes Bad 2257
+Yes Bad 3249
+No
+Yes Bad 7947
+Yes Good
+No
+No
+No
+No
+Yes Good
+No
+Yes Bad 8921
+No
+No
+No
+No
+No
+Yes Good
+Yes Good
+Yes Bad 6245
+No
+No
+Yes Good
+Yes Good
+Yes Good
+No
+Yes Bad 8657
+Yes Bad 7637
+No
+Yes Good
+No
+No
+Yes Bad 2968
+Yes Bad 2495
+Yes Bad 6593
+No
+Yes Bad 7249
+Yes Bad 9099
+Yes Good
+Yes Good
+Yes Bad 8902
+Yes Bad 3565
+Yes Good
+Yes Bad 5832
+No
+No
+Yes Good
+Yes Bad 3740
+No
+Yes Bad 3782
+Yes Bad 1316
+No
+No
+No
+No
+No
+No
+Yes Good
+No
+No
+No
+Yes Bad 3234
+Yes Bad 6322
+Yes Bad 1129
+No
+Yes Bad 3948
+Yes Good
+No
+Yes Good
+Yes Bad 0346
+No
+Yes Good
+No
+No
+No
+No
+No
+No
+No
+No
+No
+Yes Bad 1259
+No
+No
+No
+No
+Yes Bad 7828
+No
+No
+No
+Yes Good
+Yes Bad 6786
+No
+No
+No
+No
+Yes Good
+No
+No
+No
+Yes Good
+Yes Bad 4762
+No
+Yes Bad 7885
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+Yes Bad 3173
+Yes Good
+Yes Bad 6649
+Yes Bad 4681
+Yes Bad 8085
+No
+Yes Good
+Yes Good
+No
+No
+No
+Yes Bad 8074
+Yes Good
+Yes Bad 3672
+No
+Yes Bad 6425
+No
+Yes Bad 8921
+No
+Yes Good
+Yes Bad 3918
+Yes Bad 4880
+No
+Yes Bad 8175
+Yes Good
+No
+Yes Bad 3465
+No
+No
+Yes Bad 1579
+No
+Yes Bad 6781
+Yes Good
+Yes Good
+No
+No
+Yes Bad 3697
+Yes Good
+No
+No
+Yes Bad 5649
+No
+No
+No
+Yes Good
+Yes Good
+Yes Bad 8921
+Yes Good
+Yes Bad 3695
+No
+Yes Good
+Yes Good
+No
+No
+Yes Bad 5895
+Yes Good
+Yes Good
+Yes Bad 1129
+No
+No
+Yes Good
+Yes Good
+No
+No
+Yes Bad 6961
+No
+Yes Bad 3696
+Yes Good
+Yes Good
+Yes Bad 3171
+No
+No
+Yes Bad 4599
+Yes Bad 7078
+Yes Bad 3783
+No
+Yes Bad 4371
+No
+No
+No
+Yes Bad 8897
+Yes Good
+Yes Bad 2968
+Yes Good
+No
+Yes Good
+Yes Good
+Yes Bad 1579
+Yes Bad 5954
+No
+Yes Bad 3466
+Yes Bad 7672
+Yes Bad 5880
+Yes Bad 2264
+Yes Good
+No
+Yes Bad 5445
+No
+No
+No
+Yes Bad 2412
+Yes Bad 8399
+No
+No
+No
+Yes Good
+Yes Bad 3987
+No
+No
+No
+No
+Yes Bad 7421
+No
+Yes Good
+Yes Bad 7421
+No
+No
+Yes Bad 9761
+No
+No
+Yes Bad 2557
+No
+Yes Bad 3695
+Yes Bad 9234
+Yes Bad 9670
+No
+No
+Yes Bad 9761
+Yes Bad 9284
+No
+Yes Good
+No
+No
+No
+No
+Yes Good
+Yes Bad 9699
+Yes Good
+No
+Yes Bad 4694
+No
+No
+No
+Yes Good
+No
+No
+No
+Yes Good
+Yes Good
+No
+No
+No
+No
+No
+Yes Bad 6565
+No
+No
+No
+Yes Good
+No
+No
+No
+Yes Good
+Yes Bad 3173
+No
+Yes Good
+No
+No
+Yes Bad 2058
+Yes Good
+Yes Bad 5528
+No
+Yes Bad 4474
+Yes Bad 9282
+Yes Good
+Yes Good
+No
+Yes Bad 8921
+No
+No
+No
+No
+No
+No
+No
+Yes Bad 4699
+Yes Good
+No
+Yes Bad 5495
+No
+No
+Yes Bad 6983
+Yes Bad 4762
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+Yes Good
+No
+Yes Good
+No
+Yes Bad 4371
+No
+No
+No
+Yes Bad 4408
+Yes Good
+No
+Yes Good
+No
+No
+Yes Bad 8257
+Yes Good
+No
+Yes Bad 8673
+No
+Yes Bad 5130
+No
+No
+No
+No
+No
+Yes Good
+Yes Bad 4698
+No
+No
+No
+Yes Good
+No
+Yes Good
+No
+Yes Bad 2584
+No
+Yes Bad 4895
+No
+Yes Bad 9761
+Yes Bad 2648
+Yes Bad 1129
+Yes Bad 3718
+No
+No
+Yes Good
+Yes Bad 9761
+Yes Bad 9368
+Yes Bad 4362
+Yes Bad 6662
+Yes Bad 1843
+No
+No
+No
+No
+No
+No
+Yes Bad 2458
+Yes Bad 6066
+Yes Bad 8977
+No
+Yes Good
+Yes Good
+No
+Yes Bad 7098
+No
+Yes Bad 8205
+No
+No
+Yes Good
+Yes Bad 3584
+No
+No
+Yes Bad 3635
+No
+No
+No
+Yes Good
+No
+No
+No
+Yes Bad 5176
+Yes Bad 2899
+No
+No
+No
+Yes Bad 4495
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+Yes Good
+No
+No
+Yes Good
+Yes Bad 2841
+Yes Bad 8757
+No
+No
+Yes Good
+No
+Yes Bad 7495
+No
+No
+Yes Good
+No
+Yes Good
+Yes Bad 5124
+Yes Bad 9199
+No
+Yes Bad 6631
+No
+No
+Yes Bad 8977
+No
+No
+Yes Bad 5637
+Yes Bad 2128
+No
+Yes Bad 3365
+Yes Bad 6056
+No
+Yes Bad 2687
+Yes Good
+Yes Bad 9686
+Yes Bad 6961
+No
+No
+Yes Bad 4895
+No
+No
+Yes Good
+Yes Bad 4474
+No
+No
+No
+Yes Bad 3129
+Yes Good
+Yes Good
+Yes Bad 8208
+No
+Yes Bad 3258
+No
+No
+Yes Bad 9467
+Yes Good
+No
+Yes Good
+Yes Good
+No
+No
+No
+Yes Bad 4455
+No
+Yes Bad 4819
+Yes Bad 4694
+Yes Good
+Yes Good
+Yes Bad 0857
+No
+Yes Bad 5249
+No
+Yes Good
+Yes Good
+No
+Yes Good
+Yes Bad 9686
+No
+No
+Yes Good
+Yes Bad 8114
+Yes Bad 2124
+No
+No
+Yes Good
+Yes Bad 8552
+Yes Bad 6997
+No
+No
+No
+No
+No
+No
+No
+Yes Bad 6952
+Yes Bad 8224
+Yes Good
+No
+No
+No
+Yes Bad 8637
+Yes Bad 3573
+Yes Good
+Yes Good
+No
+No
+Yes Good
+No
+No
+Yes Bad 5230
+Yes Bad 5763
+No
+Yes Bad 8144
+No
+No
+No
+No
+Yes Bad 4062
+Yes Good
+No
+No
+No
+No
+No
+No
+Yes Good
+Yes Good
+No
+Yes Bad 8976
+Yes Good
+Yes Good
+No
+Yes Bad 9819
+Yes Good
+No
+No
+No
+Yes Good
+No
+Yes Bad 9199
+No
+No
+No
+Yes Bad 4362
+Yes Bad 2485
+Yes Good
+Yes Good
+No
+No
+Yes Bad 7392
+No
+No
+Yes Bad 4662
+Yes Good
+No
+3
+KL-56-4224 ym
+LA-74-VP-6776 fgbxjzhdo
+OD-81-8118 mcrdqxeg
