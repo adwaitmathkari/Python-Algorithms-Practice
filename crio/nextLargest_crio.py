@@ -78,9 +78,20 @@ def nextLargerElement(arr):
 
     
 def nextLargerElement2(arr):
-    # implement a brute force algo
+    ##using a stack
+    # traverse from 0 - length
+    # we will put all elements in the stack and find the nest greater element for each member in the stack
+    # compare new element with that in the stack. 
+    # if newE>stackE then the next greater for stackE is newE
+    # pop the element in the stack and do this till stack gets empty or if newE<stackE
+    # add newE to the stack
+    # go on till the end and finally the elementstht are in teh statck will be the ones that do not have any next greater 
+
+
+
     pass
-    
+
+
 
 
 
