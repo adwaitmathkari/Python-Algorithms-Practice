@@ -1,5 +1,8 @@
 
 from typing import List
+import time
+
+
 
 class Solution:
 
@@ -18,6 +21,8 @@ class Solution:
     3) If all rows have been tried and nothing worked, return false to trigger 
         backtracking.
     """
+    def __init__(self):
+        self.c = 0
 
     def solveNQueens(self, n: int) -> List[List[str]]:
         # fresh
@@ -64,24 +69,88 @@ class Solution:
         return True
 
 
+    def solveNQueens2(self, n: int) -> List[List[str]]:
+        # fresh
+        # place in the first row
+
+        # List[List[str]]
+        result=[]
+
+        def placeQueen(board, rownum):
+            for i in range(1,n+1):                
+                if self.validPlacement(board, rownum, i-1):
+                    board1=[row for row in board]
+                    board1[rownum] = '.'*(i-1)+'Q'+'.'*(n-i)
+                    if rownum==n-1:
+                        result.append(board1)
+                        return               
+                    placeQueen(board1, rownum+1)
+                
+        board=['.'*n for j in range(n)]
+        placeQueen(board, 0)
+
+        return result
+
+
+    def validPlacement(self, board, r, c):
+        for i in range(1,r+1):
+            if board[r-i][c] == "Q":
+                return False
+            if c-i >=0:
+                if board[r-i][c-i] == "Q":
+                    return False
+            if c+i < len(board):
+                if board[r-i][c+i] == "Q":
+                    return False
+        return True
+
+    def solveNQueens3(self, n: int) -> List[List[str]]:
+        # fresh
+        # place in the first row
+
+        # List[List[str]]
+        result=[]
+
+        def placeQueen(board, r, cols, d1s, d2s):
+
+            for c in range(0,n):
+                self.c += 1 
+                if c not in cols and r+c not in d1s and r-c not in d2s:
+                    board1=[row for row in board]
+                    board1[r] = '.'*(c)+'Q'+'.'*(n-c-1)
+                    if r==n-1:
+                        result.append(board1)
+                        return               
+                    placeQueen(board1, r+1, cols+[c], d1s+[r+c], d2s+[r-c])
+                
+        board=['.'*n for j in range(n)]
+        placeQueen(board, 0, [], [], [])
+
+        return result
     
                 
 
 # b1=[[0,1,0,0],[0,0,0,1],[1,0,0,0],[0,0,1,0]]
 # b1=['.Q..','...Q','Q...','Q...']
-
 s=Solution()
-# print(s.isLegalBoard(b1))
+n = 13
+# # print(s.isLegalBoard(b1))
+# t= time.time()
+# results=s.solveNQueens(n)
+# print(time.time() - t)
 
+# t= time.time()
+# results2 = s.solveNQueens2(n)
+# print(time.time() - t)
 
-inp=int(input())
-results=s.solveNQueens(inp)
+# # print(results2)
 
-
-
+t= time.time()
+results2 = s.solveNQueens3(n)
+print(time.time() - t)
+print(len(results2))
+print(s.c)
+# print(len(results), len(results2))
 # for result in results:
-#     for row in result:
-#         print(row)
-#     print("----")
-
-print(len(results))
+#     if result not in results2:
+#         print("result not found")

@@ -51,9 +51,17 @@ What if the BST is modified (insert/delete operations) often and you need to fin
 #  
 class Solution:
     def kthSmallest(self, root: TreeNode, k: int) -> int:
+        def inorder(root, l, k):
+            if root == None or len(l)>k:
+                return
+            inorder(root.left, l, k)
+            l.append(root.val)
+            inorder(root.right, l, k)
         
-        pass
-
+        l=[]
+        inorder(root, l, k)
+        return l[k]
+        
 
 
         

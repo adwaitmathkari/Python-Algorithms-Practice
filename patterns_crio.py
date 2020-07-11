@@ -80,9 +80,3 @@ if __name__ == '__main__':
     number_of_unpleasant_patterns = int(input())
     unpleasant_patterns = [input() for i in range(number_of_unpleasant_patterns)]
     print(answer(given_tune, unpleasant_patterns))
-
-
-
-    
-
-

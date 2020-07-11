@@ -1,0 +1,8 @@
+10 6
+aaaaabbbbbcccccdddddeeeee
+1 25 1
+1 25 12
+1 25 23
+1 25 7
+1 25 9
+1 25 11

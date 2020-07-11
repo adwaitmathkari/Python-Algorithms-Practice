@@ -62,6 +62,5 @@ def firstUniqueInteger(lis):
 
 
 arr1 = [[],[4,3,2,7,8,-3,-12], [1,2,1,2], [1,1], [0], [0,0,5,6,6,1,9,10,10], [1,-1], [1,2,3], [1,2,3,-6]]
-for arr in arr1:
-    
+for arr in arr1:    
     print(firstUniqueInteger(arr))

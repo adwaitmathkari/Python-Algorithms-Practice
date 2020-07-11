@@ -38,13 +38,37 @@
 #     print('--', i)
 
 
-a=123
-b=23
+import time
 
-print(a if a else 1237489)
+# a=123
+# b=23
 
-a=[1,2,3,4,5,6,7]
-for j in range(100):
-    print('1', a.pop() if a!=[] else None)
+# print(a if a else 1237489)
 
-    print('2', a.pop())
+# a=[1,2,3,4,5,6,7]
+# for j in range(100):
+#     print('1', a.pop() if a!=[] else None)
+
+#     print('2', a.pop())
+
+l = range(10000000)
+s=set()
+for i in l:
+    s.add(i)
+
+l2=[]
+t= time.time()
+for i in l:
+    l2.append(i)
+print(time.time() - t)
+
+
+l2=[]
+t= time.time()
+for key in s:
+    l2.append(key)
+print(time.time() - t)
+
+
+
+
