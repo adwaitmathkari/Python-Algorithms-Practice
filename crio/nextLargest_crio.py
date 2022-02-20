@@ -1,6 +1,7 @@
 """
 Problem Description
-Given an array A having N elements, the task is to find the next greater element for each element of the array in order of their appearance in the array. If no such element exists, output -1.
+Given an array A having N elements, the task is to find the next greater element for each element of the array in order of their 
+appearance in the array. If no such element exists, output -1.
 
 Input format
 The first line contains an integer N denoting the size of the array. The second line contains N space separated positive integers denoting the values in the array A.

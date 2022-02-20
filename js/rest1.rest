@@ -1,6 +1,0 @@
-
-
-
-get "https://covid-19-data.p.rapidapi.com/help/countries"
-content-type: application/json
-

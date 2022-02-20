@@ -10,23 +10,22 @@ def routeBetweenNode(start, end, n, edges):
         d[e[0]] = d.get(e[0], []) + [e[1]]
 
     exploredNodes = set()
-    def find(curr, target, visited, d, ans):
+
+    def find(curr, target, d, ans):
+        if ans[0] or curr in exploredNodes:
+            return
+        
         exploredNodes.add(curr)
-        if ans[0]:
-            return
-        if curr in visited:
-            return
 
         for node in d.get(curr, []):
             if node == target:
                 ans[0] = True
-                # print(visited+[curr, node])
                 return
             if node not in exploredNodes:
-                find(node, target, visited[:]+[curr], d, ans)
+                find(node, target, d, ans)
 
     ans = [False]
-    find(start, end, [], d, ans)
+    find(start, end,  d, ans)
     return ans[0]
 
 
@@ -55,31 +54,11 @@ def routeBetweenNode1(start, end, n, edges):
                     nextNodes.append(nextn)
         currNodes = nextNodes
     return False 
-    
-    
+
+
 f = open("input.txt")
 T = int(f.readline())
 sys.setrecursionlimit(20 * 1000)
-
-# t=time()
-# for _t in range(T):
-#     n, m = map(int, f.readline().strip().split())
-#     edges = list()
-#     for i in range(m):
-#         edge = list(map(int, f.readline().strip().split()))
-#         edges.append(edge)
-#     start, end = map(int, f.readline().strip().split())
-    
-    
-#     result = routeBetweenNode(start, end, n, edges)
-#     print('yes' if result else 'no')
-
-# print("DFS ALG", time() - t)
-# f.close()
-
-
-f = open("input.txt")
-T = int(f.readline())
 
 t=time()
 for _t in range(T):
@@ -89,8 +68,27 @@ for _t in range(T):
         edge = list(map(int, f.readline().strip().split()))
         edges.append(edge)
     start, end = map(int, f.readline().strip().split())
-    
-    
+
+
+    result = routeBetweenNode(start, end, n, edges)
+    print('yes' if result else 'no')
+
+print("DFS ALG", time() - t)
+f.close()
+
+
+f = open("input.txt")
+T = int(f.readline())
+
+t = time()
+for _t in range(T):
+    n, m = map(int, f.readline().strip().split())
+    edges = list()
+    for i in range(m):
+        edge = list(map(int, f.readline().strip().split()))
+        edges.append(edge)
+    start, end = map(int, f.readline().strip().split())
+
     result = routeBetweenNode1(start, end, n, edges)
     print('yes' if result else 'no')
 
